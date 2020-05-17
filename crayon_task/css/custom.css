@@ -1,0 +1,84 @@
+body{
+	margin:0px;
+}
+.mr-0{
+	margin-right:0px !important;
+}
+.page-wrapper{
+	padding:30px;
+}
+.flex-container{
+	display: flex;
+	flex-wrap: wrap;
+	align-content: stretch;
+}
+.wrapper-div{
+	padding:0px 15px;
+	float:left;
+	width: auto;
+}
+.portlet{
+	background: rgba(108,117,125,.0627451) !important;
+	border-radius:5px;
+	margin-bottom:30px;
+	box-shadow: 0 0 30px 0 rgba(82,63,105,.05);
+	/* margin-right: 20px; */
+	border:1px solid #000;
+}
+
+.portlet .portlet-header,.portlet .portlet-header-right-floated{
+	min-height:30px;
+	padding:10px 15px;
+}
+.portlet .portlet-header-right-floated{
+	display: flex;
+	justify-content: end;
+	min-height:auto;
+	padding-bottom:0px;
+}
+.portlet .portlet-body{
+	padding:10px 15px;
+}
+
+.portlet .portlet-title-right-floated{
+	width:max-content;
+	padding: 5px 20px;
+	margin-right: -20px;
+	margin-top: -15px;
+	height: max-content;
+	border:1px solid #000;
+}
+.portlet-label-danger{
+	background-color: #f64e60 !important;
+	color:#fff;
+}
+.portlet-label-warning{
+	background-color: #ffa800 !important;
+	color:#fff;
+}
+.portlet-label-info{
+	background-color: #3699ff !important;
+	color:#fff;
+}
+
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+	.wrapper-div {
+		width: calc(50% - 30px);
+	}
+	.full-width-tablet{
+		width:100% !important;
+		margin-right:0px;
+	}
+}
+@media screen and (max-width:768px) {
+	.wrapper-div {
+		width: 100%;
+	}
+}
+@media screen and (min-width: 992px) {
+	.flex-container{
+		flex-wrap: nowrap;
+	}
+}
+
