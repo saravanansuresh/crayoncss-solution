@@ -56,11 +56,19 @@ body{
 	background-color: #ffa800 !important;
 	color:#fff;
 }
-.portlet-label-info{
+.portlet-label-primary{
 	background-color: #3699ff !important;
 	color:#fff;
 }
-
+.bg-light-danger {
+    background-color: #ffe2e5 !important;
+}
+.bg-light-warning {
+    background-color: #fff4de !important;
+}
+.bg-light-primary {
+    background-color: #e1f0ff !important;
+}
 
 @media screen and (max-width: 991px) and (min-width: 768px) {
 	.wrapper-div {
